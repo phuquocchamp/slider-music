@@ -31,7 +31,7 @@
   
   .section__background:before {
       content: '';
-      position: absolute;
+      /* position: absolute; */
       top: 0;
       left: 0;
       width: 100vw;
@@ -326,4 +326,16 @@
           max-width: calc(100% - 20px);
           margin-inline: auto;
       }
+  }
+
+
+
+  .music-card__lyrics{
+    display: flex;
+    background-color: rgba(255, 255, 255, .2);
+    width: 750px;
+    height : 630px;
+    margin: 100px;
+    border-radius: 4%;
+
   }
